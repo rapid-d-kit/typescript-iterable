@@ -1,6 +1,6 @@
 {
   "name": "@rapid-d-kit/iterator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "repository": "https://github.com/rapid-d-kit/typescript-iterable.git",
   "author": "rapid-d-kit <contact.rapid-d-kit@w4io.com>",
@@ -32,7 +32,6 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@rapid-d-kit/types": "^0.1.1",
     "@ts-overflow/async": "^1.0.2"
   }
 }
