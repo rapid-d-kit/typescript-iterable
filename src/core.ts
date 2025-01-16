@@ -4,7 +4,7 @@
 
 export namespace Iterator {
   export function isIterable<T>(arg: unknown): arg is Iterable<T> {
-    __brandAnd(arg);
+    __$__brandAnd(arg);
     return arg && typeof arg === 'object' && typeof arg[Symbol.iterator] === 'function';
   }
 
@@ -198,6 +198,8 @@ export namespace Iterator {
 }
 
 
-function __brandAnd(arg: unknown): asserts arg is any { }
+function __$__brandAnd(arg: unknown): asserts arg is any {
+  return void arg;
+}
 
 export default Iterator;
